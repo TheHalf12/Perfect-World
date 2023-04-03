@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.banner {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: darkred;
+    color: aqua;
+    font-family: papyrus, 'Times New Roman', serif;
+    font-size: large;
+}
+
+nav {
+    background-color: aliceblue;
+    padding: 6px
+}
+
+.navbar {
+    display: inline;
+}
+
+.navbar a{
+    text-align:center;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    border-style: double;
+}
