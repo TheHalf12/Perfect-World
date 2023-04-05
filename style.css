@@ -2,28 +2,31 @@ body {
     background-color: black;
 }
 
-.banner {
-    padding-top: 1%;
-    padding-bottom: 2%;
+header h1 {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 35px;
     text-align: center;
     background-color: darkred;
-    color: aqua;
+    color: black;
     font-family: papyrus, 'Times New Roman', serif;
-    font-size: large;
+    font-size: 40px;
 }
 
 nav {
     background-color: aliceblue;
-    padding: 6px
+    padding: 8px;
+    text-align: center;
 }
 
-.navbar {
+nav div {
     display: inline;
 }
 
-.navbar a{
+nav div a{
+    background-color: navy;
     text-align:center;
-    color: black;
+    color: white;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 60px;
@@ -31,4 +34,28 @@ nav {
     font-size: 30px;
     font-family: 'Times New Roman', sans-serif;
     border-style: double;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+section div {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section div h1 {
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+section div p {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.link {
+    text-align: center;
+    font-size: 30px;
 }
