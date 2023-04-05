@@ -1,2 +1,1 @@
-# RentDM
-Site for RentDM products
+Site for Perfect World products
