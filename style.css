@@ -2,15 +2,20 @@ body {
     background-color: black;
 }
 
-header h1 {
+header {
     margin: auto;
     padding-top: 5px;
     padding-bottom: 35px;
     text-align: center;
-    background-color: darkred;
+    background-color: black;
     color: black;
     font-family: papyrus, 'Times New Roman', serif;
     font-size: 40px;
+}
+
+header div img {
+    width: 1150px;
+    height: 1130px;
 }
 
 nav {
@@ -39,6 +44,8 @@ nav div a{
     margin-right: 5px;
 }
 
+nav
+
 section div {
     background-color: white;
     margin-left: 20px;
@@ -53,6 +60,7 @@ section div h1 {
 }
 
 section div p {
+    margin: 4px;
     text-align: justify;
     font-size: 30px;
 }
