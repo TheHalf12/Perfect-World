@@ -5,7 +5,7 @@ body {
 header {
     margin: auto;
     padding-top: 5px;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
     text-align: center;
     background-color: black;
     color: black;
@@ -13,13 +13,8 @@ header {
     font-size: 40px;
 }
 
-header div img {
-    width: 1150px;
-    height: 1130px;
-}
-
 nav {
-    background-color: aliceblue;
+    background-color: black;
     padding: 8px;
     text-align: center;
     margin-bottom: 0px;
@@ -29,22 +24,19 @@ nav div {
     display: inline;
 }
 
-nav div a{
-    background-color: navy;
+nav div a {
     text-align:center;
     color: white;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 30px;
     font-family: 'Times New Roman', sans-serif;
-    border-style: double;
     margin-left: auto;
-    margin-right: 5px;
+    margin-right: 35px;
 }
 
-nav
+nav div a img {
+    height: 50px;
+}
 
 section div {
     background-color: white;
@@ -65,11 +57,33 @@ section div p {
     font-size: 30px;
 }
 
-.link {
+.Link {
     text-align: center;
     font-size: 30px;
 }
 
-nav .brokenlink {
-    background-color: gray;
-} 
+.Products {
+    background-color: aliceblue;
+}
+
+.Products h1 {
+    text-align: center;
+    color: red;
+    text-decoration: solid;
+}
+
+.Product h2{
+    text-align: center;
+}
+
+.Tags {
+    display: inline-block;
+    margin: auto;
+}
+
+.Tag {
+    border-radius: 25px;
+    padding: 5px;
+    background-color: red;
+    color: aliceblue;
+}
